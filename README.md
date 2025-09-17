@@ -86,7 +86,7 @@ python inference.py
 Outputs generated volumes `(.npy and .nrrd)` to `results_output_dir`.
 
 3. Examples
-```python
+```
 We provided the healthy, aneurysmal, and coarcted cases in the data folder. Users can voxelize them and test the SGADiff. Due to the file size limitation, we are unable to upload the voxelized NRRD file.
 ```
 
