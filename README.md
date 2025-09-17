@@ -29,7 +29,7 @@ SGADiff supports creating large-scale paired datasets (mesh, mask, CT) for **mod
 We recommend using **conda** for environment setup.
 
 Key dependencies (see requirements.txt):
-'''python
+'''bash
 PyTorch
  >= 2.1
 
@@ -40,6 +40,7 @@ Diffusers
  >= 0.21
 
 SimpleITK, PyVista, tqdm, matplotlib
+'''
 
 Dataset Preparation
 
