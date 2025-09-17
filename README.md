@@ -28,35 +28,32 @@ SGADiff supports creating large-scale paired datasets (mesh, mask, CT) for **mod
 ## Installation
 We recommend using **conda** for environment setup.
 
-Key dependencies (see requirements.txt):
-'''bash
-PyTorch
- >= 2.1
-
-MONAI
- >= 1.4
-
-Diffusers
- >= 0.21
-
-SimpleITK, PyVista, tqdm, matplotlib
-'''
-
-Dataset Preparation
-
-SGADiff expects data in NRRD format.
-Use split_data.py to structure datasets into train/val/test:
-
 ```bash
-git clone https://github.com/<your-username>/SGADiff.git
-cd SGADiff
-
 # Create environment
 conda create -n sgadiff python=3.10
 conda activate sgadiff
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+Key dependencies (see requirements.txt):
+```bash
+PyTorch >= 2.1
+
+MONAI >= 1.4
+
+Diffusers >= 0.21
+
+SimpleITK, PyVista, tqdm, matplotlib
+```
+
+## Dataset Preparation
+
+SGADiff expects data in NRRD format.
+Use split_data.py to structure datasets into train/val/test:
+
+
 
 ## Introduction
 > SGADiff (Segmentation-Guided 2.5D Diffusion) is a novel framework for synthesizing realistic 3D aortic CT volumes from synthetic aorta meshes.
