@@ -1,7 +1,7 @@
 # SGADiff: A Segmentation-Guided 2.5D Diffusion Model for CT Volume Generation from Synthesized Aorta Meshes
 
 <div align='center'>
-<img src='video.gif'>
+<img src='pipeline.png'>
 </div>
 
 ## Introduction
